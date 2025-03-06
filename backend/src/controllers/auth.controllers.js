@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 import { generateToken } from "../lib/util.js";
 import User from "../models/user.model";
 import bcrypt from "bcryptjs"
@@ -48,6 +49,15 @@ export const signup = async (req, res) => {
 };
 
 export const login = (req, res) => {    
+=======
+
+
+export const signup = (req, res) => {
+    res.send("Sign up route hit - handle the signup logic here");
+};
+
+export const login = (req, res) => {
+>>>>>>> Stashed changes
     res.send("Login route hit - handle the login logic here");
 };
 
